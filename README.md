@@ -3,7 +3,7 @@ Virtual Private Cloud
 
 ![vpc](https://cdn.qwiklabs.com/OBtRY37ZCmWiHi%2FHsG8XCSGDBfsuKk3IMJVgQscsg2E%3D)
 
-Core Steps:
+# Core Steps:
 
 (1) create VPC network
 
@@ -12,3 +12,7 @@ Core Steps:
 (3) explore/expose connection between VM & VPC
 
 (4) create VM with its NICs
+
+start from step 1:
+
+create VPC network.
