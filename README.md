@@ -132,9 +132,25 @@ setup VPC FW.
 
 create VMs in the Region/Zone accoring with the VPC/Subnet it is located. 
 
-* 3.1, add some value to the optional properties as following:
+* 3.1, in cloud console, click on Navigation Bar >> GCE to create VM, and add some value to the optional properties as following:
 
 
                     Property	     Value (type value or select option as specified)
                     Network	     managementnet
                     Subnetwort     managementsubnet-us
+
+* 3.2, in cloud shell, type cmd line to create vm.
+
+           gcloud compute
+           
+           gcloud compute instances
+           
+           gcloud compute instances create [vm name]
+                                     --zone=[]
+                                     --machine-type=[]
+                                     --subnet=[]
+                                     
+            [output]
+            Name           Zone         Machine Type   Preemptible   Internal IP   External IP      Status
+            private-us-vm  us-central1    [略]                        172.16.0.2    35.184.221.40    running
+                                                                      [自動配置]     [BGP 配置]
