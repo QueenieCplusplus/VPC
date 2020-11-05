@@ -120,4 +120,9 @@ setup VPC FW.
           [output]
           NAME                          NETWORK    DIRECTION  PRIORITY  ALLOW                 DENY
          privatenet-allow-icmp-ssh-rdp  privatenet  INGRESS    1000      icmp,tcp:22,tcp:3389
-           
+  
+  * 2.3, to check resulting fw rules.
+  
+         gcloud compute firewall-rules list
+         
+         gcloud compute firewall-rules list --sort-by=NETWORK
