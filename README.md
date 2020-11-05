@@ -48,7 +48,18 @@ create VPC network.
                                                 --region=us-central1
                                                 --range=172.16.0.0.24
                                                 
-           
+  * 1.3, type cmd line to list all availabe VPC.
+  
+          gcloud compute networks list
+          
+          [output]
+          Name        Subnet-Mode    BGP-Routing      IPv4-Range       GW-IPv4
+          
+          default      auto          Regional
+          
+          management   custom        Regional
+          
+          privatenet   custom        Regional
           
                                                                 
           
