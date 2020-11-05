@@ -59,7 +59,7 @@ create VPC network.
           
           default      auto          Regional
           
-          managementㄔ   custom        Regional
+          management   custom        Regional
           
           privatenet   custom        Regional
           
