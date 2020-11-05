@@ -92,6 +92,18 @@ default is auto mode networks (設定上本次課程略過), whereas, management
            
  > start from step 2:
 
-setup VPC FW.          
+setup VPC FW.     
+
+* 2.1, in cloud console, click Navigation Bar >> Networking >> VPC >> VPC Networks >> Firewall.
+
+           Property	     Value (type value or select option as specified)
+           
+              Name	               managementnet-allow-icmp-ssh-rdp
+             Network	        managementnet
+             Targets	     All instances in the network
+             Source filter	            IP Ranges
+             Source IP ranges	             0.0.0.0/0
+            Protocols and ports     Specified protocols and ports, and then check tcp, type: 22, 3389; and check Other protocols, type: icmp.
+
          
            
