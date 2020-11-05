@@ -7,13 +7,13 @@ Virtual Private Cloud
 
 (1) create VPC network
 
-(2) set FW to VPC
+(2) set FW rule to VPC (permit icmp, ssh, rdp)
 
-(3) create GCE VMs
+(3) create GCE VMs (under the subenet, both internal & external IPs will be deployed.)
 
-(4) explore/expose connection between VM & VPC
+(4) explore/expose connection between VM & VPC (using ping to check connectivity)
 
-(5) create VM with its NICs
+(5) create VM with its NICs (set up network property to VM)
 
 > start from step 1:
 
