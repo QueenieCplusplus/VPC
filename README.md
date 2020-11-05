@@ -57,10 +57,12 @@ create VPC network.
           
           default      auto          Regional
           
-          management   custom        Regional
+          managementㄔ   custom        Regional
           
           privatenet   custom        Regional
           
-                                                                
+  * Tips & Attention:
+  
+default is auto mode networks (設定上本次課程略過), whereas, managementnet and privatenet are custom mode networks. Auto mode networks create subnets in each region automatically, while custom mode networks start with no subnets, giving you full control over subnet creation.
           
           
