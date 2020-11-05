@@ -168,5 +168,11 @@ check connection using the providing IPs in step 3.2.
 
        ping -c 3 <Enter managementnet-us-vm's external IP here>
        
+       // You are able to ping the external IP address of all VM instances, even though they are either in a different zone or VPC network. 
+       
+       // This confirms public access to those instances is only controlled by the ICMP firewall rules that you established earlier.
+       
        ping -c 3 <Enter managementnet-us-vm's internal IP here>
-       //This should not work as indicated by a 100% packet loss!
+       // This should not work as indicated by a 100% packet loss!
+       
+  
