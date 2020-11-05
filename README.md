@@ -126,3 +126,8 @@ setup VPC FW.
          gcloud compute firewall-rules list
          
          gcloud compute firewall-rules list --sort-by=NETWORK
+         
+         
+ > start from step 3:
+
+create VMs in the Region/Zone accoring with the VPC/Subnet it is located.    
