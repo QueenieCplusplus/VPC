@@ -7,13 +7,15 @@ Virtual Private Cloud
 
 (1) create VPC network
 
-(2) create GCE VMs
+(2) set FW to VPC
 
-(3) explore/expose connection between VM & VPC
+(3) create GCE VMs
 
-(4) create VM with its NICs
+(4) explore/expose connection between VM & VPC
 
-start from step 1:
+(5) create VM with its NICs
+
+> start from step 1:
 
 create VPC network.
 
@@ -88,6 +90,8 @@ default is auto mode networks (設定上本次課程略過), whereas, management
            privatesubnet-us us-central1     privatenet
            172.16.0.0/20
            
-           
+ > start from step 2:
+
+setup VPC FW.          
          
            
