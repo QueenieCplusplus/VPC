@@ -186,6 +186,8 @@ create VM with its NICs.
                   new VM  - NIC1  -----> subnet B
                           - NIC2  -----> subnet C
                           
+          the CIDR ranges of all those subnets do not overlap.
+                          
   
 * 4.2, Navigation Bar >> GCE >> Network, Sec, and Disk >> Network, and set up it NIC
   
