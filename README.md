@@ -175,11 +175,11 @@ check connection using the providing IPs in step 3.2.
        ping -c 3 <Enter managementnet-us-vm's internal IP here>
        // This should not work as indicated by a 100% packet loss!
        
- > start from step 4:
+ > start from step 5:
 
 create VM with its NICs.
 
-* 4.1, Navigation Bar >> GCE, to create New VM.
+* 5.1, Navigation Bar >> GCE, to create New VM.
 
                       
                           - NIC0  -----> subent A
@@ -189,7 +189,7 @@ create VM with its NICs.
           the CIDR ranges of all those subnets do not overlap.
                           
   
-* 4.2, Navigation Bar >> GCE >> Network, Sec, and Disk >> Network, and set up it NIC
+* 5.2, Navigation Bar >> GCE >> Network, Sec, and Disk >> Network, and set up it NIC (edit by its pencil icon).
   
                  
           Property	Value (type value or select option as specified)
@@ -205,4 +205,4 @@ create VM with its NICs.
           Subnetwork [        ]
           
           
-
+![vpc setup](https://cdn.qwiklabs.com/WEGrd5zpLB1JkgbtDzxadKeRAO%2FWkYpH5RKEfF%2Bxp%2FY%3D)
