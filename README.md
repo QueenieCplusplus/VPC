@@ -205,7 +205,8 @@ create VM with its NICs.
           Subnetwork [        ]
           
           
-![vpc setup](https://cdn.qwiklabs.com/WEGrd5zpLB1JkgbtDzxadKeRAO%2FWkYpH5RKEfF%2Bxp%2FY%3D)
+![vpc](https://cdn.qwiklabs.com/OBtRY37ZCmWiHi%2FHsG8XCSGDBfsuKk3IMJVgQscsg2E%3D)
+
 
 * 5.3, in cloud console, check connection result.
 
