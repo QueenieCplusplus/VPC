@@ -130,4 +130,11 @@ setup VPC FW.
          
  > start from step 3:
 
-create VMs in the Region/Zone accoring with the VPC/Subnet it is located.    
+create VMs in the Region/Zone accoring with the VPC/Subnet it is located. 
+
+* 3.1, add some value to the optional properties as following:
+
+
+                    Property	     Value (type value or select option as specified)
+                    Network	     managementnet
+                    Subnetwort     managementsubnet-us
