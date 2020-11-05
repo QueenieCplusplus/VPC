@@ -179,4 +179,28 @@ check connection using the providing IPs in step 3.2.
 
 create VM with its NICs.
 
+* 4.1, Navigation Bar >> GCE, to create New VM.
+
+                      
+                          - NIC0  -----> subent A
+                  new VM  - NIC1  -----> subnet B
+                          - NIC2  -----> subnet C
+                          
+  
+* 4.2, Navigation Bar >> GCE >> Network, Sec, and Disk >> Network, and set up it NIC
+  
+                 
+          Property	Value (type value or select option as specified)
+          Network	managementnet
+          Subnetwork managementsubnet-us
+          
+          Property	Value (type value or select option as specified)
+          Network	 default
+          Subnetwork mynetwork
+          
+          Property	Value (type value or select option as specified)
+          Network	 [vpc name]
+          Subnetwork [        ]
+          
+          
 
