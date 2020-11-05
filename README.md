@@ -105,5 +105,19 @@ setup VPC FW.
              Source IP ranges	             0.0.0.0/0
             Protocols and ports     Specified protocols and ports, and then check tcp, type: 22, 3389; and check Other protocols, type: icmp.
 
-         
+ * 2.2, in cloud shell, type following cmd line to set up FW rules:
+ 
+          gcloud compute firewall-rules 
+ 
+          gcloud compute firewall-rules create [fw name]
+                                        --network=[vpc name]
+                                        --direction=[]
+                                        --priority=[]
+                                        --action=ALLOW
+                                        --rules=icmp,tcp:22,tcp:3389
+               
+          
+          [output]
+          NAME                          NETWORK    DIRECTION  PRIORITY  ALLOW                 DENY
+         privatenet-allow-icmp-ssh-rdp  privatenet  INGRESS    1000      icmp,tcp:22,tcp:3389
            
