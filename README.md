@@ -94,7 +94,7 @@ default is auto mode networks (設定上本次課程略過), whereas, management
 
 setup VPC FW.     
 
-* 2.1, in cloud console, click Navigation Bar >> Networking >> VPC >> VPC Networks >> Firewall.
+* 2.1, in cloud console, click Navigation Bar >> Networking >> VPC >> VPC Networks >> Firewall >> + Create FW Rule.
 
            Property	     Value (type value or select option as specified)
            
