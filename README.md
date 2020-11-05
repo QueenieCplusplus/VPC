@@ -65,4 +65,29 @@ create VPC network.
   
 default is auto mode networks (設定上本次課程略過), whereas, managementnet and privatenet are custom mode networks. Auto mode networks create subnets in each region automatically, while custom mode networks start with no subnets, giving you full control over subnet creation.
           
-          
+  * 1.4, type cmd line to list all available VPC subnets.  
+  
+           gcloud compute networks 
+           
+           gcloud compute networks subnets list
+           
+           gcloud compute networks subnets list --sort-by=NETWORK 
+           // flag means subnets will be listed sorted by VPC Name
+           
+           
+           [output]
+           
+           Name            Region          Network      Range
+           
+           deault           [略]           default
+           [略]
+           
+           management-us    us-central1     management
+           10.130.0.0/20
+           
+           privatesubnet-us us-central1     privatenet
+           172.16.0.0/20
+           
+           
+         
+           
