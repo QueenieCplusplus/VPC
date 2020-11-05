@@ -175,4 +175,8 @@ check connection using the providing IPs in step 3.2.
        ping -c 3 <Enter managementnet-us-vm's internal IP here>
        // This should not work as indicated by a 100% packet loss!
        
-  
+ > start from step 4:
+
+create VM with its NICs.
+
+
