@@ -206,3 +206,40 @@ create VM with its NICs.
           
           
 ![vpc setup](https://cdn.qwiklabs.com/WEGrd5zpLB1JkgbtDzxadKeRAO%2FWkYpH5RKEfF%2Bxp%2FY%3D)
+
+* 5.3, in cloud console, check connection result.
+
+       Go to Navigation Bar >> GCE, click on the instance you want to test.
+       click SSH icon to launch a terminal and connect.
+       
+ 
+ * 5.4, in cloud shell, check connection result.
+ 
+        sudo ifconfig
+        
+        [output]
+          eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
+          inet 172.16.0.3  netmask 255.255.255.255  broadcast 172.16.0.3
+          inet6 fe80::4001:acff:fe10:3  prefixlen 64  scopeid 0x20<link>
+          ether 42:01:ac:10:00:03  txqueuelen 1000  (Ethernet)
+          RX packets 626  bytes 171556 (167.5 KiB)
+          RX errors 0  dropped 0  overruns 0  frame 0
+          TX packets 568  bytes 62294 (60.8 KiB)
+          TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        
+          eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
+                  inet 10.130.0.3  netmask 255.255.255.255  broadcast 10.130.0.3
+                  inet6 fe80::4001:aff:fe82:3  prefixlen 64  scopeid 0x20<link>
+                  ether 42:01:0a:82:00:03  txqueuelen 1000  (Ethernet)
+                  RX packets 7  bytes 1222 (1.1 KiB)
+                  RX errors 0  dropped 0  overruns 0  frame 0
+                  TX packets 17  bytes 1842 (1.7 KiB)
+                  TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+          eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
+                  inet 10.128.0.3  netmask 255.255.255.255  broadcast 10.128.0.3
+                  inet6 fe80::4001:aff:fe80:3  prefixlen 64  scopeid 0x20<link>
+                  ether 42:01:0a:80:00:03  txqueuelen 1000  (Ethernet)
+                  RX packets 17  bytes 2014 (1.9 KiB)
+                  RX errors 0  dropped 0  overruns 0  frame 0
+                  TX packets 17  bytes 1862 (1.8 KiB)
+                  TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
