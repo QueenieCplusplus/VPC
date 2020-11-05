@@ -154,3 +154,9 @@ create VMs in the Region/Zone accoring with the VPC/Subnet it is located.
             Name           Zone         Machine Type   Preemptible   Internal IP   External IP      Status
             private-us-vm  us-central1    [略]                        172.16.0.2    35.184.221.40    running
                                                                       [自動配置]     [BGP 配置]
+
+* Tips & Attention:
+
+    port 22 == SSH
+    
+    port 3385 == RDP 
