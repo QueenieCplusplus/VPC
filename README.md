@@ -16,3 +16,7 @@ Virtual Private Cloud
 start from step 1:
 
 create VPC network.
+
+* 1.1, in cloud console, after using IAM to login and to set project ID, then got to navigation bar to click on "Networking" >> "VPC" >> type name >> set Subnet >> set Region.
+
+![vpc setup](https://cdn.qwiklabs.com/WEGrd5zpLB1JkgbtDzxadKeRAO%2FWkYpH5RKEfF%2Bxp%2FY%3D)
