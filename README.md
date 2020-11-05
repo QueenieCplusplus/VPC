@@ -160,3 +160,10 @@ create VMs in the Region/Zone accoring with the VPC/Subnet it is located.
     port 22 == SSH
     
     port 3385 == RDP 
+
+
+> start from step 4:
+
+check connection using the providing IPs in step 3.2.
+
+       ping -c 3 <Enter managementnet-us-vm's external IP here>
