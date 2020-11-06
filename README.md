@@ -244,3 +244,7 @@ create VM with its NICs.
                   RX errors 0  dropped 0  overruns 0  frame 0
                   TX packets 17  bytes 1862 (1.8 KiB)
                   TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+# Ref code
+
+119, 31
