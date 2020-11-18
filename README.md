@@ -248,6 +248,8 @@ create VM with its NICs.
 # Ref Doc
 
   https://cloud.google.com/vpc-service-controls/docs/use-access-levels
+  
+  https://cloud.google.com/vpc
 
 # Ref code
 
